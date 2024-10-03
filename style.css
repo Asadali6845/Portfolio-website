@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #312828;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3f1818;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffa500;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #181818;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content span {
+    color: #ffa500;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hire-btn {
+    background-color: #ffa500;
+    color: #000;
+}
+
+.works-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ffa500;
+}
+
+.hero-image {
+    width: 300px;
+    border-radius: 50%;
+}
+
+#about {
+    padding: 30px;
+    
+}
+
+#about h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-info {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.about-info li {
+    margin: 10px 0;
+}
+
+.cv-btn {
+    background-color: #ffa500;
+    padding: 10px 20px;
+    color: #000;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+#skills {
+    padding: 50px;
+    background-color: #181818;
+    text-align: center;
+}
+
+#skills h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill {
+    width: 200px;
+    text-align: left;
+}
+
+.skill p {
+    margin-bottom: 5px;
+}
+
+.progress {
+    background-color: #333;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress span {
+    display: block;
+    height: 100%;
+    background-color: #ffa500;
+}
+
+footer {
+    background-color: #101010;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #777;
+    font-size: 0.9rem;
+}
